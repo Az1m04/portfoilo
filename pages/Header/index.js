@@ -4,10 +4,7 @@ import MeImage from "../../public/azim.jpg";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-function Header() {
-  const [title, setTitle] = useState("");
-  const router = useRouter();
-  console.log(router?.query);
+function Header({ title, setTitle }) {
   return (
     <div className="flex flex-col items-center mx-auto justify-start h-full">
       <div className="flex flex-col justify-between h-full ">
@@ -29,7 +26,7 @@ function Header() {
               className={title === "about" ? `ml-2 text-yellow-500` : `ml-2`}
             >
               {" "}
-              <Link href="#about">About me</Link>{" "}
+              <Link href="#about">About</Link>{" "}
             </span>{" "}
           </div>
           <div className="" onClick={() => setTitle("work")}>

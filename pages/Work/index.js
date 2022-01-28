@@ -78,7 +78,7 @@ function Work() {
               <div className="mt-5">
                 <span className="text-base font-semibold">View live:</span>
                 <div className=" h-8 w-8 rounded-full hover:bg-yellow-500 cursor-pointer">
-                  <Link href="https://suhavi.web.app">
+                  <Link href="https://ocean-trucking.web.app">
                     <img src="https://img.icons8.com/emoji/48/000000/rocket-emji.png" />
                   </Link>
                 </div>
@@ -110,7 +110,7 @@ function Work() {
               <div className="mt-5">
                 <span className="text-base font-semibold">View live:</span>
                 <div className=" h-8 w-8 rounded-full hover:bg-yellow-500 cursor-pointer">
-                  <Link href="https://suhavi.web.app">
+                  <Link href="https://academy-on-board.web.app">
                     <img
                       src="https://img.icons8.com/emoji/48/000000/rocket-emji.png"
                       alt=""

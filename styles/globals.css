@@ -13,7 +13,7 @@
 }
 
 .chevron {
-    position: absolute;
+  position: absolute;
   width: 28px;
   height: 8px;
   opacity: 0;
@@ -96,4 +96,68 @@
 
 #container {
   min-height: 80vh;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted #404040;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #282828;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+}
+.tooltip .tooltiptextLeft {
+  visibility: hidden;
+  width: 120px;
+  background-color: #282828;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+}
+.tooltip .tooltiptextLeft::after {
+  content: "";
+  position: absolute;
+
+  top: 100%;
+  left: 50%;
+  margin-left: -44px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #404040 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptextLeft {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #404040 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
