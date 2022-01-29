@@ -20,31 +20,31 @@ function Header({ title, setTitle }) {
         </div>
 
         <div className=" text-white text-lg font-semibold space-y-4 ">
-          <div className="" onClick={() => setTitle("about")}>
-            <span className="text-yellow-500 ">1. </span>{" "}
-            <span
+          <div className="flex " onClick={() => setTitle("about")}>
+            <div className="text-yellow-500 hidden xl:block ">1. </div>{" "}
+            <div
               className={title === "about" ? `ml-2 text-yellow-500` : `ml-2`}
             >
               {" "}
               <Link href="#about">About</Link>{" "}
-            </span>{" "}
+            </div>{" "}
           </div>
-          <div className="" onClick={() => setTitle("work")}>
-            <span className="text-yellow-500 ">2. </span>{" "}
-            <span
+          <div className="flex" onClick={() => setTitle("work")}>
+            <div className="text-yellow-500 hidden xl:block ">2. </div>{" "}
+            <div
               className={title === "work" ? `ml-2 text-yellow-500` : `ml-2`}
             >
               <Link href="#work">Work</Link>
-            </span>{" "}
+            </div>{" "}
           </div>
-          <div className="" onClick={() => setTitle("contact")}>
-            <span className="text-yellow-500 ">3. </span>{" "}
-            <span
+          <div className="flex" onClick={() => setTitle("contact")}>
+            <div className="text-yellow-500 hidden xl:block ">3. </div>{" "}
+            <div
               className={title === "contact" ? `ml-2 text-yellow-500` : `ml-2`}
             >
               {" "}
               <Link href="#contact">Contact</Link>{" "}
-            </span>{" "}
+            </div>{" "}
           </div>
         </div>
         <div className="flex flex-col items-center space-y-4">

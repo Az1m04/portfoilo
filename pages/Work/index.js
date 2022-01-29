@@ -8,7 +8,7 @@ function Work() {
         Work
       </div>
       <div className="space-y-10">
-        <div className="flex justify-between leading-3 mt-32 text-gray-400 text-2xl space-x-10">
+        <div className=" justify-between leading-3 mt-32 text-gray-400 text-2xl space-y-10 xl:space-y-0 xl:space-x-10  xl:flex">
           <div
             className="bg-gradient-to-r from-gray-700 to-gray-900 rounded-md shadow-md p-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
             style={{ height: "280px", width: "400px" }}
@@ -121,7 +121,7 @@ function Work() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between leading-3 text-gray-400 text-2xl">
+        <div className=" xl:flex justify-between leading-3 text-gray-400 text-2xl">
           <div
             className="bg-gradient-to-r from-gray-700 to-gray-900 rounded-md shadow-md p-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
             style={{ height: "280px", width: "400px" }}

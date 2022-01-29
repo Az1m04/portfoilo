@@ -67,10 +67,9 @@ function HomePage() {
         </div>
         <div
           data-aos="fade-up"
-          className=" mt-10 lg:mt-20 xl:mt-20 text-2xl  lg:text-2xl xl:text-2xl "
+          className=" mt-10  xl:mt-20 text-2xl  lg:text-2xl xl:text-2xl "
         >
-          <Link href="#contact">
-            
+          <Link href="#contact" htmlFor="">
             <button className="transition ease-in-out delay-150 font-semibold text-gray-900  bg-gradient-to-r  from-yellow-500 to-yellow-700 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-700 duration-300 px-6 py-4 rounded-full">
               Hire me
             </button>

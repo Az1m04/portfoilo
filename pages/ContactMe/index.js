@@ -9,10 +9,10 @@ function ContactMe() {
         Contact
       </div>
       <div className="w-full flex justify-between mt-24">
-      <div className="w-full flex items-end">
+      <div className="w-full flex items-end hidden lg:hidden xl:block ">
         <Image height={700} src={Contact} objectFit="contain" alt=""/>
       </div>
-        <div className="w-2/3  my-10 bg-gradient-to-r from-gray-700 to-gray-900  p-5 rounded-md shadow-xl">
+        <div className=" xl:w-2/3  my-10 bg-gradient-to-r from-gray-700 to-gray-900  p-5 rounded-md shadow-xl">
           <div className="text-center">
             <h1 className="my-3 text-3xl font-semibold text-yellow-600 ">
               Contact me

@@ -8,8 +8,12 @@ function About() {
       <div className="text-6xl font-bold bg-clip-text  text-transparent bg-gradient-to-r from-gray-400 to-gray-600">
         About
       </div>
-      <div className="flex justify-between  mt-36 text-gray-400 text-2xl">
-        <p className="">
+      <div className=" mt-10 -ml-20 -mb-20 xl:hidden   ">
+          <Image height={400} objectFit="contain" src={MeImage} alt="" />
+        </div>
+      <div className="flex justify-between  mt-36 text-gray-400  text-2xl">
+       <div className="  lg:w-5/6 "> 
+       <p className="">
           I am a nonchalant type of person who loves to do his work joyfully.
           Ready to learn new technologies and use my creative thinking to solve
           the problems.
@@ -18,7 +22,7 @@ function About() {
             B.Tech (CSE) and now I am doing my internship in SimbaQuartz as
             Software Developer position.
           </p>
-          <p className="mt-5 flex justify-between">
+          <p className=" mt-10 xl:mt-5 space-y-10 lg:space-y-0 xl:space-y-0 lg:flex xl:flex justify-between">
             <p className="">
               Non Technical skills:
               <p className="mt-4">
@@ -131,8 +135,9 @@ function About() {
             </p>
           </p>
         </p>
+       </div>
 
-        <div className="-mr-24 w-full  ">
+        <div className="-mr-96 lg:w-20 hidden  xl:block xl:w-full  ">
           <Image height={400} objectFit="contain" src={MeImage} alt="" />
         </div>
       </div>
